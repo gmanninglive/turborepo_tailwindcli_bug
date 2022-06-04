@@ -1,14 +1,11 @@
 {
   "pipeline": {
-    "build": {
-      "dependsOn": ["^build"],
-      "outputs": ["dist/**", ".next/**"]
-    },
-    "lint": {
-      "outputs": []
+    "watch": {
+      "cache": false
     },
     "dev": {
       "cache": false
     }
+
   }
 }

@@ -1,0 +1,12 @@
+{
+  "name": "testingtw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -c tailwind.config.js -i input.css -o ./dist/dist.css --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}

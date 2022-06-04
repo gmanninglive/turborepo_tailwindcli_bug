@@ -1,0 +1,9 @@
+{
+  "name": "stdinlisten",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node index.js"
+  },
+  "license": "MIT"
+}
